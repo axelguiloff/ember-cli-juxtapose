@@ -1,26 +1,22 @@
-# Ember-cli-juxtapose
+# Ember-CLI Juxtapose
 
-This README outlines the details of collaborating on this Ember addon.
+This addon will display a before/after slider using the [Juxtapose.js](https://juxtapose.knightlab.com/) library
 
-## Installation
+Demo: http://todo.com
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+##Installation
 
-## Running
+`ember install ember-cli-juxtapose`
 
-* `ember server`
-* Visit your app at http://localhost:4200.
 
-## Running Tests
+## Basic Usage
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+At a minimum, you can provide urls for a before image and after image
 
-## Building
+```
+{{juxtapose-slider beforeImageUrl="https://sample-domain.com/img/before-img.jpg" afterImageUrl="https://sample-domain.com/img/after-img.jpg"}}
+```
 
-* `ember build`
+## Thanks
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+JuxtaposeJS is one of a series of tools for content creators produced by the Northwestern University Knight Lab. It was created by Medill student Alex Duner.
