@@ -43,6 +43,9 @@ export default Ember.Component.extend({
    */
   didInsertElement() {
     this._super(...arguments);
+    if (!this.get('beforeImageUrl') || !this.get('afterImageUrl')) {
+      Ember.Logger.warn('Component juxtapose-slider requires both a beforeImageUrl and afterImageUrl');
+    }
     juxtapose.makeSlider(this.$()[0]);
   }
 });
