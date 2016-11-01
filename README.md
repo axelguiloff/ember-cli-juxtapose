@@ -2,8 +2,6 @@
 
 This addon will display a before/after slider using the [Juxtapose.js](https://juxtapose.knightlab.com/) library
 
-Demo: http://todo.com
-
 ##Installation
 
 `ember install ember-cli-juxtapose`
