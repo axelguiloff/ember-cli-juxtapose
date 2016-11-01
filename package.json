@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-juxtapose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Juxtapose.js wrapper for Ember CLI apps",
   "directories": {
     "doc": "doc",
